@@ -2,6 +2,8 @@
 
 <h3>Welcome: <%= current_user.email %></h3>
 
+<%= link_to 'My images', images_path,class: 'btn btn-primary sign-up' %>
+
 <% else %>
 
 <div class="jumbotron">
